@@ -35,4 +35,12 @@ Index Positions
 - This allows variables, mathematical equations, and even methods to be used inside of the square brackets - anything that will evaluate to a number
 - If a floating point number is used inside of square brackets, it will be converted to an integer by truncating everything after the decimal point
 - Any non-numeric value inside of the square brackets will throw a TypeError as it will not be automatically converted to a number by Ruby
+
+New Array Method - count
+
+- The Array#count method returns the number of elements in the array
+- So without an argument, it is basically equivalent to calling .length on the array
+- It also accepts arguments, such as a value or a block
+- If given an argument, it acts very much like the Array#filter method, but with .length called on it
+
 =end
