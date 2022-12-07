@@ -23,3 +23,16 @@ p prices
 # to the start of the array, rather than from the end
 is_logged_in.unshift(false)
 p is_logged_in
+
+=begin
+Index Positions
+
+- Index positions are like the numerical address of each element of an array
+- Index positions start counting from 0 for the first element of the array
+- This means that the index of the last element of the array is always at the array's length minus 1
+- Square brackets are used after the array name to access its index
+- Anything inside of the square brackets will be evaluated as a Ruby expression
+- This allows variables, mathematical equations, and even methods to be used inside of the square brackets - anything that will evaluate to a number
+- If a floating point number is used inside of square brackets, it will be converted to an integer by truncating everything after the decimal point
+- Any non-numeric value inside of the square brackets will throw a TypeError as it will not be automatically converted to a number by Ruby
+=end
